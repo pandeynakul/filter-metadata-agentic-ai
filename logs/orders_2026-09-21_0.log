@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-09-21T12:20:02.400390700Z</date>
+  <millis>1789993202400</millis>
+  <nanos>390700</nanos>
+  <sequence>3</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>40</thread>
+  <message>&gt;&gt; &gt;&gt; inside the  processAndIngestUpload org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@f48fcb0 acme-corp finance</message>
+</record>
+<record>
+  <date>2026-09-21T12:20:04.338772500Z</date>
+  <millis>1789993204338</millis>
+  <nanos>772500</nanos>
+  <sequence>4</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>40</thread>
+  <message>&gt;&gt; &gt;&gt; before : vectorStore.accept(chunkedDocuments) </message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-09-21T12:43:29.463529800Z</date>
+  <millis>1789994609463</millis>
+  <nanos>529800</nanos>
+  <sequence>3</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>41</thread>
+  <message>&gt;&gt; &gt;&gt; inside the  processAndIngestUpload org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@76258c73 acme-corp finance</message>
+</record>
+<record>
+  <date>2026-09-21T12:43:31.313640500Z</date>
+  <millis>1789994611313</millis>
+  <nanos>640500</nanos>
+  <sequence>4</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>41</thread>
+  <message>&gt;&gt; &gt;&gt; before : vectorStore.accept(chunkedDocuments) </message>
+</record>
+<record>
+  <date>2026-09-21T12:45:14.227172300Z</date>
+  <millis>1789994714227</millis>
+  <nanos>172300</nanos>
+  <sequence>5</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>42</thread>
+  <message>&gt;&gt; &gt;&gt; inside the  processAndIngestUpload org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@56c8f269 acme-corp finance</message>
+</record>
+<record>
+  <date>2026-09-21T12:45:14.669861100Z</date>
+  <millis>1789994714669</millis>
+  <nanos>861100</nanos>
+  <sequence>6</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.PdfIngestionService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.PdfIngestionService</class>
+  <method>processAndIngestUpload</method>
+  <thread>42</thread>
+  <message>&gt;&gt; &gt;&gt; before : vectorStore.accept(chunkedDocuments) </message>
+</record>
+</log>

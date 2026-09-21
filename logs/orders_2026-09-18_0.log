@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-09-18T10:14:28.617563700Z</date>
+  <millis>1789726468617</millis>
+  <nanos>563700</nanos>
+  <sequence>3</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.RagSynthesisService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.RagSynthesisService</class>
+  <method>queryWithMetadataFilter</method>
+  <thread>40</thread>
+  <message>&gt;&gt; &gt;&gt; queryWithMetadataFilterWhat is Engineering Roadmap?</message>
+</record>
+<record>
+  <date>2026-09-18T10:15:32.616813800Z</date>
+  <millis>1789726532616</millis>
+  <nanos>813800</nanos>
+  <sequence>4</sequence>
+  <logger>com.basic.filtermetadataagenticai.service.RagSynthesisService</logger>
+  <level>INFO</level>
+  <class>com.basic.filtermetadataagenticai.service.RagSynthesisService</class>
+  <method>queryWithMetadataFilter</method>
+  <thread>44</thread>
+  <message>&gt;&gt; &gt;&gt; queryWithMetadataFilterWhat is Engineering Roadmap?</message>
+</record>
+</log>
