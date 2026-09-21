@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: filter-metadata-agentic-ai
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/rag_demo
+    username: postgres
+    password: #your password
+    driver-class-name: org.postgresql.Driver
+
+  ai:
+    # 1. Google Gemini Configuration (Google AI Studio Free Tier)
+    google:
+      genai:
+        api-key: #put your key or through Env variable
+        chat:
+          model: gemini-3.6-flash
+          temperature: 0.2
+
+    # 2. Ollama Embedding Configuration
+    ollama:
+      base-url: http://localhost:11434
+      embedding:
+        options:
+          model: mxbai-embed-large                      # Or mxbai-embed-large / nomic-embed-text
+
+    # 3. Vector Database Configuration
+    vectorstore:
+      pgvector:
+        # Custom table name for storing vector embeddings
+        table-name: filter_metadata
+        # Schema name (optional, defaults to 'public')
+        schema-name: public
+        # Index type and metric
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1024 # Matches mxbai-embed-large
+        # Schema lifecycle behavior
+        initialize-schema: true
+        remove-existing-vector-store-table: true
+  #autoconfigure:
+   # exclude:
+    #- org.springframework.ai.model.ollama.autoconfigure.OllamaChatAutoConfiguration

@@ -1,0 +1,25 @@
+### RAG Query Endpoint
+POST http://localhost:8080/api/v1/rag/query?department=finance
+X-Tenant-ID: acme-corp
+Content-Type: application/json
+
+{
+  "prompt": "What is our YoY revenue performance?"
+}
+
+
+
+### upload any local PDF file
+
+# curl -X POST "http://localhost:8080/api/v1/rag/upload-pdf?tenantId=acme-corp&department=finance&confidential=true"
+#  -F "file=@/path/to/your/local/document.pdf"
+POST http://localhost:8080/api/v1/rag/upload-pdf?tenantId=acme-corp&department=finance&confidential=true
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="document.pdf"
+
+< \path\to\your\local\document.pdf
+--WebAppBoundary--
+
+###
